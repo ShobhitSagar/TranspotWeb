@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+#logo{
+    max-width: 40px;
+}
+#top_img{
+    background-image: url(../../assets/img/service_engine2_orig.png);
+    background-size: cover;
+}
+#top_div{
+    height: 800px;
+}
+#nav_brand{
+    background: transparent;
+    margin-left: 20px;
+}
+#nav_brand, #nav_link{
+    font-weight: 700;
+    color: rgba(255,255,255,.7);
+}
+#mainNav{
+    /* background: #f26c4f; */
+}
+#nav_brand:hover{
+    color: #FFF;
+}
+#nav_link:hover{
+    color: #FFF;
+}
+.fixed-top{
+    position: fixed;
+}
+#main_text_div{
+    margin-top: 80px;
+    padding-top: 140px;
+}
+#mainText{
+    font-size: 70px;
+    color: #FFF;
+}
+#first_hr{
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+#about_hr{
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #FFF;
+}
+#first_intro{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+#find_out_btn{
+    color: #FFF;
+    background: #f26c4f;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+#find_out_btn:hover{
+    background: #FF5021;
+}
+#about_btn{
+    color: #000;
+    background: #FFF;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+#about_btn:hover{
+    background: #d8d8d8;
+}
+#about{
+    height: 500px;
+    background: #f05f40;
+}
+#about_content{
+    margin-top: 120px;
+}
+#services{
+    height: 600px;
+}
+#services_content{
+    margin-top: 100px;
+}
+#portfolio{
+    height: 400px;
+}
+#portfolio_content{
+    margin-top: 100px;
+}
+#contact{
+    height: 550px;
+}
+#contact_content{
+    margin-top: 100px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-faded{
+    opacity: .8;
+    font-size: 18px;
+}
+
+.bg-dark{
+    height: 300px;
+}
+#fa_icon{
+    color: #FF5021;
+}
+a{
+    text-decoration: none;
+    color: #FF5021;
+}
+
+
+@media (max-width: 992px){
+    #mainNav{
+        background-color: #FFF;
+    }
+    #nav_brand{
+        /* color: #FF5021; */
+        display: none;
+    }
+    #nav_link{
+        color: #000;
+    }
+    #nav_link:hover{
+        color: #FF5021;
+    }
+}
